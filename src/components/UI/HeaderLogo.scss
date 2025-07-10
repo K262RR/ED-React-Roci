@@ -1,0 +1,20 @@
+.headerLogo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  text-decoration: none;
+  width: fit-content;
+  height: fit-content;
+
+  strong {
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

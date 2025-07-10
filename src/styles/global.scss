@@ -1,0 +1,19 @@
+@import "modern-normalize/modern-normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
+@import "./variables";
+
+body {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+}

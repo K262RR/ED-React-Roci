@@ -1,0 +1,35 @@
+@use "../../styles/variables" as *;
+
+.mainMenu {
+  &__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+    list-style: none;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-brown;
+    font-family: $font-title;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $color-accent;
+      transition: color 0.3s ease;
+    }
+
+    &.active {
+      color: $color-accent;
+    }
+  }
+}
+
+.headerHome .mainMenu__link {
+  color: $color-white;
+}
