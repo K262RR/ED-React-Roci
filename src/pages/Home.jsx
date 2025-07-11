@@ -6,6 +6,8 @@ import RaiseStatus from "../components/Sections/RaiseStatus/RaiseStatus";
 import AboutUs from "../components/Sections/AboutUs/AboutUs";
 import RociAnniversary from "../components/Sections/RociAnniversary/RociAnniversary";
 import Ambassador from "../components/Sections/Ambassador/Ambassador";
+import HomeNews from "../components/Sections/HomeNews/HomeNews";
+import DownloadApp from "../components/Sections/DownloadApp/DownloadApp";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <DecorLines />
       <RociAnniversary />
       <Ambassador />
+      <HomeNews />
+      <DownloadApp />
     </PageLayout>
   );
 }
