@@ -1,3 +1,9 @@
+import PageLayout from "../components/Layout/PageLayout";
+
 export default function Auth() {
-  return <div>Auth</div>;
+  return (
+    <PageLayout>
+      <div>Auth</div>
+    </PageLayout>
+  );
 }

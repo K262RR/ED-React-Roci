@@ -1,9 +1,23 @@
-import HomeLayout from "../components/Layouts/HomeLayout";
+import PageLayout from "../components/Layout/PageLayout";
+import Features from "../components/Sections/Features/Features";
+import Reviews from "../components/Sections/Reviews/Reviews";
+import DecorLines from "../components/UI/DecorLines";
+import RaiseStatus from "../components/Sections/RaiseStatus/RaiseStatus";
+import AboutUs from "../components/Sections/AboutUs/AboutUs";
+import RociAnniversary from "../components/Sections/RociAnniversary/RociAnniversary";
+import Ambassador from "../components/Sections/Ambassador/Ambassador";
 
 export default function Home() {
   return (
-    <HomeLayout>
-      <div>Home</div>
-    </HomeLayout>
+    <PageLayout>
+      <Features />
+      <DecorLines />
+      <Reviews />
+      <RaiseStatus />
+      <AboutUs />
+      <DecorLines />
+      <RociAnniversary />
+      <Ambassador />
+    </PageLayout>
   );
 }

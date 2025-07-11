@@ -1,0 +1,44 @@
+@import "../../../styles/variables.scss";
+
+.raiseStatus {
+  background-color: #e7e7e7;
+  padding: 100px 0;
+  background-image: url("/images/raisestatus.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: auto 100%;
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 24px;
+  }
+
+  h3 {
+    color: $color-brown;
+
+    font-family: $font-manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 125% */
+    width: fit-content;
+    span {
+      color: $color-accent;
+      font-weight: 500;
+    }
+  }
+
+  p {
+    max-width: 735px;
+    text-align: right;
+    color: $color-text;
+    font-family: $font-inter;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 140% */
+  }
+}

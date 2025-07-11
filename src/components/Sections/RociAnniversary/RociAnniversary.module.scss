@@ -1,0 +1,57 @@
+@import "../../../styles/variables.scss";
+
+.rociAnniversary {
+  &__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  &__logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 30px;
+    flex-shrink: 0;
+
+    strong {
+      color: $color-brown;
+      font-family: $font-babes;
+      font-size: 100px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  &__content {
+    h3 {
+      color: $color-accent;
+      text-align: right;
+      font-family: $font-manrope;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 60px; /* 125% */
+
+      span {
+        color: $color-brown;
+        font-weight: 600;
+       
+      }
+    }
+
+    p {
+      max-width: 735px;
+      text-align: right;
+      color: $color-text;
+      font-family: $font-inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+    }
+  }
+}

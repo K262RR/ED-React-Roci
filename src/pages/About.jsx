@@ -1,3 +1,9 @@
+import PageLayout from "../components/Layout/PageLayout";
+
 export default function About() {
-  return <div>About</div>;
+  return (
+    <PageLayout>
+      <div>About</div>
+    </PageLayout>
+  );
 }

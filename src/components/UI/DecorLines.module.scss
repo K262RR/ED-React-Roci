@@ -1,0 +1,14 @@
+.decorLines {
+  max-width: 100vw;
+  overflow: hidden;
+  padding: 85px 0 100px;
+
+  &__line {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+  }
+}

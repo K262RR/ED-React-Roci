@@ -1,0 +1,60 @@
+@import "../../../styles/variables.scss";
+
+.ambassador {
+  background-color: #e7e7e7;
+  padding: 32px 0;
+  &__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  &__image {
+    width: 100%;
+    max-width: 332px;
+    margin-left: -30px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    margin-right: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+    h3 {
+      text-align: right;
+      color: $color-brown;
+      font-family: $font-manrope;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+      margin-bottom: 16px;
+
+      span {
+        color: $color-accent;
+      }
+    }
+
+    p {
+      margin-left: auto;
+      max-width: 735px;
+      text-align: right;
+      color: $color-text;
+      font-family: $font-inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      margin-bottom: 34px;
+    }
+  }
+}
