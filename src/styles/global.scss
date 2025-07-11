@@ -14,6 +14,23 @@ body {
   box-sizing: border-box;
 }
 
-ul {
+h1, h2, h3, h4, h5, h6, ul {
   margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: $container-desktop;
+  margin: 0 auto;
+  padding: 0 $offset-desktop;
+
+  @media (max-width: $breakpoint-tablet) {
+    max-width: $container-tablet;
+    padding: 0 $offset-tablet;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+    max-width: $container-mobile;
+    padding: 0 $offset-mobile;
+  }
 }

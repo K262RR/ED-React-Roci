@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
-import sls from "./MainMenu.module.scss";
+import { Link } from "react-router-dom";
+import "./MainMenu.scss";
 
 export default function MainMenu() {
   const menuItems = [
@@ -11,11 +10,11 @@ export default function MainMenu() {
   ];
 
   return (
-    <nav className={sls.mainMenu}>
-      <ul className={sls.mainMenu__list}>
+    <nav className="mainMenu">
+      <ul className="mainMenu__list">
         {menuItems.map((item) => (
-          <li key={item.path} className={sls.mainMenu__item}>
-            <Link to={item.path} className={sls.mainMenu__link}>
+          <li key={item.path} className="mainMenu__item">
+            <Link to={item.path} className="mainMenu__link">
               {item.label}
             </Link>
           </li>

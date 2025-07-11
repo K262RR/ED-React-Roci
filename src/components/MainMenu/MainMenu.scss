@@ -12,7 +12,7 @@
   &__link {
     text-decoration: none;
     color: $color-brown;
-    font-family: $font-title;
+    font-family: $font-manrope;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -30,6 +30,6 @@
   }
 }
 
-.headerHome .mainMenu__link {
+.header--home .mainMenu__link {
   color: $color-white;
 }
